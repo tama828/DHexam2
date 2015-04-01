@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
+<title>かめちしき</title>
+
+<link href="./css/reset.css" rel="stylesheet" media="screen">
+<link href="./css/style.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="./css/modal.css"/>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="./js/modal.js"></script>
+
+</head>
+<body>
+
+<div id="wrapper">
+
+<header>
+<h1><img src="img/logo.png" alt="logo"></h1>
+<p>亀についてのアレコレをざっくり紹介！</p>
+<h2>かめちしき</h2>
+<p>Webサイト構築演習2　最終課題</p>
+<p>2015.1</p>
+</header>
+
+<nav class="nav">
+<ul class="clearfix">
+<li><a href="#"><img src="img/logo.png" alt="top"></a></li>
+<li><a href="#world">かめの世界</a></li>
+<li><a href="#rare">珍しいかめ</a></li>
+<li><a href="#columns">かめコラム</a></li>
+</ul>
+</nav>
+
+<article>
+このサイトでは、かめの種類や特徴、豆知識について、簡単に紹介をしていきます。<br>
+私はミドリガメを飼って十年になりますが、かめには飽きのこない魅力があると思っています。<br>
+そんな魅力を少しでも感じていただければ幸いです。
+</article>
+
+<section id="world">
+<div class="types">
+<h4>かめの世界</h4>
+<img src="img/sea.jpg" alt="sea">
+<h1>ウミガメ</h1>
+<p>水族館で大人気のウミガメは、おみやげコーナーではたくさんのグッズを見かけます。そんな愛らしいウミガメの特徴は、他の種類のかめに比べてからだが平たいこと。そして手足がすべて水を掻くためのオールのようになっており、爪や指がないことです。陸を歩くことは難しいですが、海に入ってしまえば泳ぎは大得意で、時速20～30Kmほどで移動できるのです。
+</p>
+</div>
+
+<div class="types">
+<img src="img/land.jpg" alt="land">
+<h1>リクガメ</h1>
+<p>かめといえば水の中に住むイメージが強いですが、陸を中心に生活するリクガメもいます。彼らは陸に住むからといって足が速いわけではありませんが、大きく硬い甲羅で自分を守ることができます。また、高く盛り上がった甲羅の中には栄養を貯めこんでおけるので、なかなか餌を見つけられなくても生き延びることができます。
+</p>
+</div>
+
+<div class="types">
+<img src="img/hybrid.jpg"  alt="hybrid">
+<h1>水陸両用ガメ</h1>
+<p>ミドリガメやゼニガメで知られるこのかめが、日本で一番多く飼育されているかめでしょう。彼らは海ではなく川や池などに生息しています。そのため、リクガメに似た足に水かきが付いているなど、身体の作りはウミガメとリクガメの中間です。陸を歩くこともできれば、泳ぐこともできる、まさに海と陸の両立を成し遂げたハイブリッドタイプといえます。
+</p>
+</div>
+</section>
+
+<section id="rare">
+
+<div id="modal-overlay"></div>
+
+<h4>珍しいかめ</h4>
+<p><a id="modal-open" class="button-link">クリックするとモーダルウィンドウを開きます。</a></p>
+<p><a id="modal-open2" class="button-link">クリックするとモーダルウィンドウを開きます。</a></p>
+<p><a id="modal-open3" class="button-link">クリックするとモーダルウィンドウを開きます。</a></p>
+
+<div id="modal-content">
+<img src="img/nagakubi.jpg" alt="ジーベンロックナガクビガメ">
+<h2>ジーベンロックナガクビガメ</h2>
+<h3>名前で想像つくけど想像以上の長さ</h3>
+<p>その名の通り、首の長いかめです。すべてのかめが甲羅にひっこむとは限りません。このかめは、あまりにも首が長いために、甲羅の中にしまうことができません。デメリットしかなさそうなのに、なぜこんなにも首が長いのでしょうか？実は、まだ理由は明確にわかっていません。首だけだして呼吸したり、遠くの餌をとるためだと言われています。
+</p>
+<p><a id="modal-close" class="button-link">閉じる</a></p>
+</div>
+
+<div id="modal-content">
+<p><a href="http://commons.wikimedia.org/wiki/File:Matamata_turtle_2048x1536.jpg#mediaviewer/File:Matamata_turtle_2048x1536.jpg"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Matamata_turtle_2048x1536.jpg/1200px-Matamata_turtle_2048x1536.jpg" alt="Matamata turtle 2048x1536.jpg"></a><br>"<a href="http://commons.wikimedia.org/wiki/File:Matamata_turtle_2048x1536.jpg#mediaviewer/File:Matamata_turtle_2048x1536.jpg">Matamata turtle 2048x1536</a>". Licensed under パブリック・ドメイン via <a href="//commons.wikimedia.org/wiki/">ウィキメディア・コモンズ</a>.</p>
+<h2>マタマタ</h2>
+<h3>防御そして回避、まるで忍者！</h3>
+<p>名前の不思議さもさることながら、見た目も実に変わっています。甲羅も皮膚もギザギザしていて、まるで枯れ葉のよう。実は、このマタマタも、顔のギザギザのお陰で首を引っ込めることができません。この姿は、沼や川で、枯れ葉に擬態するためにできたと言われています。甲羅で守りつつ擬態で相手の目をくらませる、忍者のようなかめです。</p>
+<p><a id="modal-close" class="button-link">閉じる</a></p>
+</div>
+
+<div id="modal-content">
+<p><a href="http://commons.wikimedia.org/wiki/File:Carettochelys_insculpta.jpg#mediaviewer/File:Carettochelys_insculpta.jpg"><img src="http://upload.wikimedia.org/wikipedia/commons/b/b3/Carettochelys_insculpta.jpg" alt="Carettochelys insculpta.jpg"></a><br>"<a href="http://commons.wikimedia.org/wiki/File:Carettochelys_insculpta.jpg#mediaviewer/File:Carettochelys_insculpta.jpg">Carettochelys insculpta</a>" by User:Dawson - en: Image:Carettochelys insculpta.jpg. Licensed under <a href="http://creativecommons.org/licenses/by-sa/2.5" title="Creative Commons Attribution-Share Alike 2.5">CC 表示-継承 2.5</a> via <a href="//commons.wikimedia.org/wiki/">ウィキメディア・コモンズ</a>.</p>
+<h2>スッポンモドキ</h2>
+<h3>スッポンどうのよりもこの顔である</h3>
+<p>スッポンモドキというだけありスッポンにそっくりですが、実際には分類上でも全く違うかめです。スッポンは凶暴で一度噛み付かれたら離さないと言われますが、スッポンモドキの場合は穏やか性格のようです。スッポンとの違いどうのこうのというよりも、なによりこんな豚さんみたいな愛嬌のある顔を紹介しないわけにはいかないでしょう。</p>
+<p><a id="modal-close" class="button-link">閉じる</a></p>
+</div>
+</section>
+
+<section id="columns">
+<h4>かめコラム</h4>
+<h2><img src="img/question.png" alt="questionmark">亀は何を食べる？</h2>
+<p><img src="img/exclamation.png" alt="exclamationmark">かめには、上記で紹介したように、幅広い種類がいます。そのため、種類によって食べるものが違ってきます。ペットのかめとして最もポピュラーと思われるミドリガメを例にとると、意外と雑食で肉でも模でも食べます。リクガメは雑草、ウミガメは海藻などを食べています。一方、沼などに生息するかめには肉食もいますので、一概には言えません。</p>
+<hr>
+<h2><img src="img/question.png" alt="questionmark">亀は長生き？</h2>
+<p><img src="img/exclamation.png" alt="exclamationmark">つるは千年、かめは万年生きると言われます。万年は言いすぎですが、かめは非常に長生きです。再びミドリガメを例に出しますが、彼らは20～30年生きることも珍しくありません。実は、動物最高齢としてギネスブックに載ったのはかめでした。トゥイ・マリラと名付けられたホウシャガメ（リクガメの一種）が、推定188年生きたと記録されています。</p>
+<hr>
+<h2><img src="img/question.png" alt="questionmark">亀はなに呼吸？</h2>
+<p><img src="img/exclamation.png" alt="exclamationmark">すべてのかめは、基本的に肺呼吸と皮膚呼吸を併用して酸素を取り入れています。あまり激しく動かないので大量の酸素を必要とせず、肺も筋肉によって大きさを変えられるため長時間の潜水が可能となります。例えばアオウミガメは、一回の呼吸で１時間くらい潜水できますし、オサガメという種は５ヶ月も呼吸無しで生活できると言われています。</p>
+<hr>
+</section>
+</div>
+
+<footer>
+<p id="page-top"><a href="#wrap"><img src="img/top.png" alt="go_to_top"></a></p>
+<p>Copy Right &copy; Umeki Yuka 2015 @ All Rights Reserved.</p>
+</footer>
+
+
+
+</body>
+</html>

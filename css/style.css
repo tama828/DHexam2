@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+
+
+header h1, header h2, header p{
+float: left;
+}
+
+
+
+header h1 img {
+width: 100px;
+padding-left: 50%;
+}
+
+header {
+background: orange;
+position: relative;
+overflow: hidden;
+}
+
+#wrapper {
+max-width: 1024px;
+margin: auto;
+}
+
+.nav {
+padding: 0 20px;
+margin: 0 auto 60px;
+width: 760px;
+}
+
+.fixed {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+}
+
+
+nav img{
+width: 50px;
+}
+
+ul li {
+float: left;
+padding: 1% 2%;
+}
+
+ul {
+background: gray;
+position: relative;
+overflow: hidden;
+}
+
+h4 {
+font-size: x-large;
+}
+
+
+
+.types img {
+width: 30%;
+margin: 20px 5%;
+min-width: 180px;
+float: left;
+}
+
+.types p {
+width: 50%;
+margin: 0 5%;
+line-height: 1.5em;
+float: left;
+}
+
+.types h1 {
+width: 50%;
+float: left;
+}
+
+.types {
+background: gray;
+position: relative;
+overflow: hidden;
+}
